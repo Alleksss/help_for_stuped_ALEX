@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header-home">
+      <load src="partials/header.html" />
+      <a href="./shop-list.html">shop-list</a>
+    </header>
+
+    <main>
+      <section class="library">
+        <div class="container">
+          <div class="list">
+            <load src="partials/categories.html" />
+            <load src="partials/funds.html" />
+          </div>
+          <load src="partials/home.html" />
+        </div>
+      </section>
+    </main>
+
+    <div class="start-backdrop is-hidden">
+      <load src="partials/start.html" />
+    </div>
+
+    <div class="popup-backdrop">
+      <load src="partials/popup.html" />
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
